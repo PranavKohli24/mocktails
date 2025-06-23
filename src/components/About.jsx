@@ -36,8 +36,9 @@ const About = () => {
 
                 <div className='sub-content'>
                     <p>
-                        Every Cocktail we serve is a reflection of our obsession with detail-from the first muddle
-                        to final garnish. That care is what turns a simple drink into something truly memorable.
+                    Every cocktail we serve reflects our passion for precision — 
+                    from the first muddle to the final garnish. 
+                    It’s this attention to detail that transforms a simple drink into an unforgettable experience.
                     </p>
 
                     <div>

@@ -131,7 +131,8 @@ const navLinks = [
        name: "Facebook",
        icon: "/images/fb.png",
        url: "#",
-    },
+    }
+    
    ];
    
    const allCocktails = [
