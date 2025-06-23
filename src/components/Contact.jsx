@@ -39,8 +39,8 @@ const Contact = () => {
 
             <div>
                 <h3>Contact</h3>
-                <p>+91 xxxxxxxx</p>
-                <p>abc@gmail.com</p>
+                <p>+91 8860271737</p>
+                <p>kohlipranav24@gmail.com</p>
             </div>
 
             <div>

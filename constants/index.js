@@ -156,9 +156,9 @@ const navLinks = [
        id: 3,
        name: "Violet Breeze",
        image: "/images/drink3.png",
-       title: "Simple Ingredients, Bold Flavor",
+       title: "Where Flavor Meets Flair",
        description:
-        "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
+        "Made with grapefruit juice, and a splash of soda, the Violet Breeze is vibrant, floral, and refreshingly smooth. Add a salted rim for the perfect drink on summer nights.",
     },
     {
        id: 4,
