@@ -134,7 +134,7 @@ const navLinks = [
     },
    ];
    
-   const sliderLists = [
+   const allCocktails = [
     {
        id: 1,
        name: "Classic Mojito",
@@ -179,5 +179,5 @@ const navLinks = [
     openingHours,
     storeInfo,
     socials,
-    sliderLists,
+    allCocktails,
    };
