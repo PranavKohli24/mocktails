@@ -62,10 +62,15 @@ const Contact = () => {
 
                                 <img src={`${social.icon}`}/>
                         </a>
+                        
                         </>
                     ))}
+
+                    
                 </div>
+                
             </div>
+            <p>coded by Pranav Kohli @2025</p>
         </div>
     </footer>
   )

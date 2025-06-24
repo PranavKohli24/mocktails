@@ -19,20 +19,20 @@ const navLinks = [
    
    const cocktailLists = [
     {
-       name: "Chapel Hill Shiraz",
-       country: "AU",
+       name: "Espresso Martini",
+       country: "London",
        detail: "Bottle",
        price: "$10",
     },
     {
        name: "Caten Malbee",
-       country: "AU",
+       country: "London",
        detail: "Bottle",
        price: "$49",
     },
     {
        name: "Rhino Pale Ale",
-       country: "CA",
+       country: "LA",
        detail: "750 ml",
        price: "$20",
     },
@@ -53,13 +53,13 @@ const navLinks = [
     },
     {
        name: "Passionfruit Mint",
-       country: "US",
+       country: "Italy",
        detail: "Bottle",
        price: "$49",
     },
     {
        name: "Citrus Glow",
-       country: "CA",
+       country: "India",
        detail: "750 ml",
        price: "$20",
     },

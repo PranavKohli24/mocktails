@@ -36,7 +36,7 @@ const About = () => {
 
                 <div className='sub-content'>
                     <p>
-                    Every cocktail we serve reflects our passion for precision — 
+                    Every drink we serve reflects our passion for precision — 
                     from the first muddle to the final garnish. 
                     It’s this attention to detail that transforms a simple drink into an unforgettable experience.
                     </p>
@@ -67,7 +67,7 @@ const About = () => {
             </div>
 
             <div className='md:col-span-3'>
-                <div className='noisy'/>
+                {/* <div className='noisy'/> */}
                 <img src="/images/abt5.png" alt='grid-img-5'/>
                 
             </div>
