@@ -7,7 +7,7 @@ import { useMediaQuery } from 'react-responsive';
 const Hero = () => {
     const videoRef=useRef();
 
-    const isMobile=window.innerWidth < 768;
+    const isMobile=useMediaQuery({maxWidth:767})
 
     useGSAP(()=>{
         const heroSplit= new SplitText('.title',{type:'chars, words'});
@@ -49,8 +49,8 @@ const Hero = () => {
                 trigger:'video',
                 start:startValue,
                 end:endValue,
-                scrub:0.5,
-                pin:!isMobile,
+                scrub:true,
+                pin:true,
 
             }
         })
@@ -79,8 +79,7 @@ const Hero = () => {
                 </div>
                 <div className='view-cocktails'>
                     <p className='subtitle'>
-                    Each drink on our menu is crafted with premium ingredients, 
-                    creative flair, 
+                    Each drink on our menu is crafted with premium ingredients, creative flair, 
                     and timeless recipes — expertly designed to ignite your senses and elevate every sip.
                     </p>
                     <a href='#cocktails'> View Cocktails</a>
@@ -96,7 +95,7 @@ const Hero = () => {
         playsInline
         preload='auto'
         src="/videos/output.mp4" 
-        className="w-full h-auto"
+        className='w-full h-auto'
          />
     </div>
     </>
