@@ -42,15 +42,15 @@ const Hero = () => {
 
 
         const startValue=isMobile?'top 50%':'center 60%';
-        const endValue=isMobile?'120% top':'bottom top';
+        const endValue=isMobile?'-69% top':'bottom top';
 
         const tl=gsap.timeline({
             scrollTrigger:{
                 trigger:'video',
                 start:startValue,
                 end:endValue,
-                scrub:0.3,
-                pin:!isMobile,
+                scrub:0.5,
+                pin:true,
 
             }
         })
@@ -95,7 +95,7 @@ const Hero = () => {
         playsInline
         preload='auto'
         src="/videos/output.mp4" 
-        className='w-full '
+        className='w-full h-auto'
          />
     </div>
     </>
