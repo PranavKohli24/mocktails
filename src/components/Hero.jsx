@@ -49,8 +49,8 @@ const Hero = () => {
                 trigger:'video',
                 start:startValue,
                 end:endValue,
-                scrub:true,
-                pin:true,
+                scrub:0.3,
+                pin:!isMobile,
 
             }
         })
@@ -95,7 +95,7 @@ const Hero = () => {
         playsInline
         preload='auto'
         src="/videos/output.mp4" 
-        className='w-full h-auto'
+        className='w-full '
          />
     </div>
     </>
